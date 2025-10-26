@@ -17,7 +17,7 @@
 - Filtering with logical operators (AND, OR, NOT, BETWEEN, IN, LIKE)  
 - Aliases for columns and tables  
 
-**Example Queries**
+**Example Queries**:
 ```sql
 -- Create a simple table
 CREATE TABLE customers (
@@ -42,7 +42,7 @@ WHERE country = 'Nigeria'
 ORDER BY age DESC;
 ```
 
-## Week 2 — Aggregations & Group Analysis
+## Week 2 — Aggregations
 
 - COUNT, SUM, AVG, MIN, MAX
 - GROUP BY and HAVING
@@ -76,19 +76,12 @@ FROM customers;
 ```
 ## Week 3 — Data Cleaning, Joins & CTEs
 
-Goal: Combine and prepare datasets for deeper analysis.
+- INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, CROSS JOIN, SELF JOIN
+- Subqueries and CTEs (Common Table Expressions)
+- Handling NULLs with COALESCE, IS NULL, IS NOT NULL
+- Data cleaning with TRIM, LOWER, UPPER, REPLACE
 
-🔹 Topics
-
-INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN
-
-Subqueries and CTEs (Common Table Expressions)
-
-Handling NULLs with COALESCE, IS NULL, IS NOT NULL
-
-Data cleaning with TRIM, LOWER, UPPER, REPLACE
-
-**Example Queries**
+**Example Queries**:
 
 ```sql
 -- Create an orders table
@@ -124,17 +117,10 @@ ORDER BY t.total_amount DESC;
 
 ## Week 4 — Query Optimisation & Analysis Projects
 
-Goal: Write efficient queries and apply everything in small analysis projects.
-
-🔹 Topics
-
-Query performance basics (LIMIT, indexes conceptually, avoiding SELECT *)
-
-Joins with filters and aggregation
-
-Window functions (ROW_NUMBER, RANK, SUM OVER)
-
-Mini analytical case studies
+- Query performance basics (LIMIT, indexes conceptually, avoiding SELECT *)
+- Joins with filters and aggregation
+- Window functions (ROW_NUMBER, RANK, SUM OVER)
+- Mini analytical case studies
 
 **Example Queries**
 
