@@ -38,6 +38,7 @@ SELECT name, country, age
 FROM customers
 WHERE country = 'Nigeria'
 ORDER BY age DESC;
+```
 
 ## Week 2 — Aggregations & Group Analysis
 
