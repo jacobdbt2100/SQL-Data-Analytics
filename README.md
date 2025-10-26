@@ -5,7 +5,7 @@ All examples use standard **PostgreSQL / MySQL-friendly** syntax that can easily
 
 ---
 
-## **Week 1 — SQL Basics & Table Foundations**
+## Week 1 — SQL Basics & Table Foundations
 **Goal:** Understand databases, tables, and how to retrieve and filter data.
 
 ### 🔹 Topics
@@ -39,7 +39,7 @@ FROM customers
 WHERE country = 'Nigeria'
 ORDER BY age DESC;
 
-Week 2 — Aggregations & Group Analysis
+## Week 2 — Aggregations & Group Analysis
 
 Goal: Summarise data to find patterns and insights.
 
@@ -53,7 +53,7 @@ DISTINCT and aggregate filtering
 
 Simple derived columns using arithmetic and CASE
 
-💻 Example Queries
+💻 **Example Queries**:
 
 ```sql
 -- Count customers by country
