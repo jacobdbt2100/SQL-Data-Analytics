@@ -10,9 +10,7 @@
 ---
 
 ## Week 1 — SQL Basics & Table Foundations
-**Goal:** Understand databases, tables, and how to retrieve and filter data.
 
-### 🔹 Topics
 - What is SQL and how databases are structured  
 - Creating and inserting into tables  
 - SELECT, WHERE, and ORDER BY clauses  
@@ -46,17 +44,10 @@ ORDER BY age DESC;
 
 ## Week 2 — Aggregations & Group Analysis
 
-Goal: Summarise data to find patterns and insights.
-
-🔹 Topics
-
-COUNT, SUM, AVG, MIN, MAX
-
-GROUP BY and HAVING
-
-DISTINCT and aggregate filtering
-
-Simple derived columns using arithmetic and CASE
+- COUNT, SUM, AVG, MIN, MAX
+- GROUP BY and HAVING
+- DISTINCT and aggregate filtering
+- Derived columns using CASE
 
 **Example Queries**:
 
