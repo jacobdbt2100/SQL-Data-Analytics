@@ -115,7 +115,7 @@ ON c.customer_id = t.customer_id
 ORDER BY t.total_amount DESC;
 ```
 
-## Week 4 — Query Optimisation & Analysis Projects
+## Week 4 — Query Optimization & Analysis Projects
 
 - Query performance basics (LIMIT, indexes conceptually, avoiding SELECT *)
 - Joins with filters and aggregation
