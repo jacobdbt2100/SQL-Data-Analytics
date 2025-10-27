@@ -1,14 +1,5 @@
 # SQL for Data Analysts — 4-Week Roadmap
 
-### Learning Objectives
-- Design and query relational tables confidently
-- Clean and join multiple datasets
-- Aggregate, rank, and filter data for insights
-- Write efficient SQL queries for analytical reporting
-
->All examples use standard **PostgreSQL / MySQL-friendly** syntax that can easily adapt to most SQL dialects.
----
-
 ## Week 1 — SQL Basics & Table Foundations
 
 - What is SQL and how databases are structured  
