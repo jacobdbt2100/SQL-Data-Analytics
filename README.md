@@ -33,7 +33,7 @@ WHERE country = 'Nigeria'
 ORDER BY age DESC;
 ```
 
-## Week 2 — Aggregations
+## Week 2 — Aggregation
 
 - COUNT, SUM, AVG, MIN, MAX
 - GROUP BY and HAVING
@@ -106,7 +106,7 @@ ON c.customer_id = t.customer_id
 ORDER BY t.total_amount DESC;
 ```
 
-## Week 4 — Query Optimization & Analysis Projects
+## Week 4 — Query Optimization & Final Project
 
 - Query performance basics (LIMIT, indexes conceptually, avoiding SELECT *)
 - Joins with filters and aggregation
