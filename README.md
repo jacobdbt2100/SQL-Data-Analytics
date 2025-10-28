@@ -111,7 +111,7 @@ ORDER BY t.total_amount DESC;
 - Query performance basics (LIMIT, indexes conceptually, avoiding SELECT *)
 - Joins with filters and aggregation
 - Window functions (ROW_NUMBER, RANK, SUM OVER)
-- Mini analytical case studies
+- Mini analytical **case studies** project
 
 **Example Queries**
 
