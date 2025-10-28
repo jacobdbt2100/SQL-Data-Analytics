@@ -1,6 +1,6 @@
 # SQL for Data Analysts — 4-Week Roadmap
 
-## Week 1 — SQL Basics & Table Foundations
+## Week 1 — SQL Basics & Database Foundations
 
 - What is SQL and how databases are structured  
 - Creating and inserting into tables  
