@@ -213,5 +213,13 @@ Is a saved set of SQL commands that performs a specific task — like retrieving
 #### `View:`
 A `view` is a virtual table based on the result of an SQLstatement. A `materialized view` is a physical copy of the view's result set stored in the database, which is updated periodically.
 
+#### `IN vs EXISTS:`
+
+| **Aspect**       | **IN**                                                                                    | **EXISTS**                                                                                                                     |
+| ---------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| **Purpose**      | Checks if a value exists **within a list or subquery result**.                            | Checks if **any row** exists in a subquery that meets the condition.                                                           |
+| **How it works** | Compares values directly.                                                                 | Tests for the **existence** of rows — stops checking once it finds one match.                                
+
+
 
 
