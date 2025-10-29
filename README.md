@@ -98,9 +98,8 @@ FROM customers;
 
 - JOINS in SQL
   
-  A `join` is an operation used to combine rows from two or more tables based on related columns. It enables data retrieval from multiple tables simultaneously.
+  A `join` is an operation used to combine rows from two or more tables based on related columns. It enables data retrieval from multiple tables simultaneously. Types: `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `FULL JOIN`, `CROSS JOIN`, `SELF JOIN`.
 
-- INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, CROSS JOIN, SELF JOIN
 - Subqueries and CTEs (Common Table Expressions)
 - Handling NULLs with COALESCE, IS NULL, IS NOT NULL
 - Data cleaning with TRIM, LOWER, UPPER, REPLACE
