@@ -2,11 +2,20 @@
 
 ## Week 1 — SQL Basics & Database Foundations
 
-- What is SQL and how databases are structured  
-- Creating and inserting into tables  
-- SELECT, WHERE, and ORDER BY clauses  
-- Filtering with logical operators (AND, OR, NOT, BETWEEN, IN, LIKE)  
-- Aliases for columns and tables  
+- What is SQL and how databases are structured
+
+    SQL (Structured Query Language) is a standard programming language used to communicate with relational databases — systems that store data in tables (rows and columns). With SQL, you can:
+  - Create databases and tables
+  - Insert data into tables
+  - Query data (ask questions to retrieve specific information)
+  - Update existing data
+  - Delete data
+  - Control access (security)
+  
+- Creating and inserting into tables
+- SELECT, WHERE, and ORDER BY clauses
+- Filtering with logical operators (AND, OR, NOT, BETWEEN, IN, LIKE)
+- Aliases for columns and tables
 
 **Example Queries**:
 ```sql
