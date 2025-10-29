@@ -219,6 +219,24 @@ A `view` is a virtual table based on the result of an SQLstatement. A `materiali
 | ---------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | **Purpose**      | Checks if a value exists **within a list or subquery result**.                            | Checks if **any row** exists in a subquery that meets the condition.                  |
 | **How it works** | Compares values directly.                                                                 | Tests for the **existence** of rows — stops checking once it finds one match.         |                       
+#### `Data Warehouse:`
+Is a large, centralized repository that stores and manages data from various sources designed for efficient analysis and reporting purposes.
+
+#### `Primary key vs Candidate key:`
+A `primary key` is a chosen candidate key that uniquely identifies a row in a table. A `candidate key` is a set of one or more columns that could potentially become the primary key.
+
+#### `GRANT:`
+The `GRANT statement` is used to grant specific permissions or privileges to users or roles in a database.
+
+#### `COALESCE:`
+The `COALESCE function` returns the first non-null expression from a list of expressions. It is often used to handle null values effectively.
+
+#### `ROW_NUMBER():`
+The `ROW_NUMBER() function` assigns a unique incremental number to each row in the result set.
+
+
+
+
 
 
 
