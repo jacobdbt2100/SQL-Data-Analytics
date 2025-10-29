@@ -177,3 +177,9 @@ SELECT *
 FROM country_rank
 WHERE rnk <= 3;
 ```
+
+### Miscellaneous
+
+#### `DELETE vs TRUNCATE:`
+
+**`DELETE`** removes specific rows from a table using a condition. **`TRUNCATE`** removes all rows from a table.
