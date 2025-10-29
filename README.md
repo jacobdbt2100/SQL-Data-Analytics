@@ -165,7 +165,7 @@ WHERE rnk <= 3;
 
 #### `DELETE vs TRUNCATE:`
 
-**`DELETE`** removes specific rows from a table using a condition. **`TRUNCATE`** removes all rows from a table.
+`DELETE` removes specific rows from a table using a condition. `TRUNCATE` removes all rows from a table.
 
 #### `UNION vs UNION ALL:`
 
