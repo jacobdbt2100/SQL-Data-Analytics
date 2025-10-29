@@ -96,6 +96,10 @@ FROM customers;
 ```
 ## Week 3 — Data Cleaning, Joins & CTEs
 
+- JOINS in SQL
+  
+  A `join` is an operation used to combine rows from two or more tables based on related columns. It enables data retrieval from multiple tables simultaneously.
+
 - INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, CROSS JOIN, SELF JOIN
 - Subqueries and CTEs (Common Table Expressions)
 - Handling NULLs with COALESCE, IS NULL, IS NOT NULL
