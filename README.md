@@ -86,6 +86,7 @@ FROM customers;
   A `join` is an operation used to combine rows from two or more tables based on related columns. It enables data retrieval from multiple tables simultaneously. Types: `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `FULL JOIN`, `CROSS JOIN`, `SELF JOIN`.
 
 - Subqueries and CTEs (Common Table Expressions)
+  - A `subquery` is a query nested inside another query.
 
 **Example Queries**:
 
@@ -208,5 +209,9 @@ A `Non-clustered Index` does not affect the physical order of data in a table. I
 
 #### `Stored Procedure:`
 Is a saved set of SQL commands that performs a specific task — like retrieving, inserting, updating, or deleting data — and can be executed repeatedly. Can be with or without `parameters`.
+
+#### `View:`
+A `view` is a virtual table based on the result of an SQLstatement.
+
 
 
