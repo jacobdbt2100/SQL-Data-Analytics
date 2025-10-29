@@ -183,3 +183,16 @@ A `Non-clustered Index` does not affect the physical order of data in a table. I
   - `Consistency` ensures that a transaction brings the database from one valid state to another
   - `Isolation` ensures that concurrent transactions do not interfere with each other
   - `Durability` ensures that once a transaction is committed, its changes are permanent and survive system failures.
+
+#### `Database vs Schema:`
+
+| **Aspect**     | **Database**                                                                    | **Schema**                                                                                            |
+| -------------- | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| **Definition** | A container for all data and objects such as **tables, views, and procedures**. | A container within a database that holds objects like **tables and views**, defining their ownership. |
+| **Hierarchy**  | Higher level — contains schemas.                                                | Lower level — exists inside a database.                                                               |
+
+`Why schemas are useful:`
+
+  - They help organise database objects (e.g. separating sales and HR tables).
+  - They control access — permissions can be granted per schema.
+  - They prevent naming conflicts between objects.
