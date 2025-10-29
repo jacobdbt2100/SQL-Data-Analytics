@@ -215,10 +215,10 @@ A `view` is a virtual table based on the result of an SQLstatement. A `materiali
 
 #### `IN vs EXISTS:`
 
-| **Aspect**       | **IN**                                                                                    | **EXISTS**                                                                                                                     |
-| ---------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| **Purpose**      | Checks if a value exists **within a list or subquery result**.                            | Checks if **any row** exists in a subquery that meets the condition.                                                           |
-| **How it works** | Compares values directly.                                                                 | Tests for the **existence** of rows — stops checking once it finds one match.                                
+| **Aspect**       | **IN**                                                                                    | **EXISTS**                                                                            |
+| ---------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| **Purpose**      | Checks if a value exists **within a list or subquery result**.                            | Checks if **any row** exists in a subquery that meets the condition.                  |
+| **How it works** | Compares values directly.                                                                 | Tests for the **existence** of rows — stops checking once it finds one match.         |                       
 
 
 
