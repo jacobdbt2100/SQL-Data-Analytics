@@ -19,6 +19,7 @@
   - `Execution Order:` FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY, TOP/LIMIT
 - Filtering with `logical operators` (AND, OR, NOT, BETWEEN, IN, LIKE)
 - Aliases for columns (mostly optional) and tables (mandatory with joins)
+  - `ALIAS command` in SQL is the name that can be given to any table or a column.
 
 **Example Queries**:
 ```sql
@@ -234,8 +235,12 @@ The `COALESCE function` returns the first non-null expression from a list of exp
 #### `ROW_NUMBER():`
 The `ROW_NUMBER() function` assigns a unique incremental number to each row in the result set.
 
-
-
+#### `Purpose of SQL Functions:`
+- Perform some calculations on the data
+- Modify individual data items
+- Manipulate output
+- Format dates and numbers
+- Convert the data types
 
 
 
