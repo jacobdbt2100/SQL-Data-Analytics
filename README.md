@@ -2,16 +2,36 @@
 
 ## Week 1 — SQL Basics & Database Foundations
 
-- SQL definition and how databases are structured
+- **SQL definition** and how **databases** are structured
 
-  SQL (Structured Query Language) is a standard programming language used to communicate with relational databases — systems that store data in tables (rows and columns). With SQL, you can:
+  **SQL (Structured Query Language)** is a standard programming language used to communicate with **`relational databases`** — systems that store data in tables (rows and columns). With SQL, you can:
   - Create databases and tables
   - Insert data into tables
   - Query data (ask questions to retrieve specific information)
   - Update existing data
   - Delete data
   - Control access (security)
-- SELECT, WHERE, and ORDER BY clauses
+
+- **SQL Clauses (Written Order):**
+  - SELECT
+  - TOP
+  - DISTINCT
+  - FROM
+  - WHERE
+  - GROUP BY
+  - HAVING
+  - ORDER BY
+  - LIMIT
+
+- **SQL Clauses (Execution Order):**
+  - FROM
+  - WHERE
+  - GROUP BY
+  - HAVING
+  - SELECT
+  - ORDER BY
+  - TOP/LIMIT
+
 - Filtering with logical operators (AND, OR, NOT, BETWEEN, IN, LIKE)
 - Aliases for columns and tables
 
