@@ -166,3 +166,8 @@ WHERE rnk <= 3;
 #### `DELETE vs TRUNCATE:`
 
 **`DELETE`** removes specific rows from a table using a condition. **`TRUNCATE`** removes all rows from a table.
+
+#### `UNION vs UNION ALL:`
+
+`UNION` and `UNION ALL` are used to combine the result sets of two or more SELECT statements. `UNION` removes duplicate rows from the combined result set. `UNION ALL` includes all rows, including duplicates.
+
