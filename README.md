@@ -14,27 +14,10 @@
 
   A **`database`** is an organized collection of data stored and accessed electronically. It provides a way to store, organize, and retrieve large amounts of data efficiently.
 
-- **SQL Clauses (Written Order):**
-  - SELECT
-  - TOP
-  - DISTINCT
-  - FROM
-  - WHERE
-  - GROUP BY
-  - HAVING
-  - ORDER BY
-  - LIMIT
-
-- **SQL Clauses (Execution Order):**
-  - FROM
-  - WHERE
-  - GROUP BY
-  - HAVING
-  - SELECT
-  - ORDER BY
-  - TOP/LIMIT
-
-- Filtering with logical operators (AND, OR, NOT, BETWEEN, IN, LIKE)
+- **SQL Clauses**
+  - `Written Order:` SELECT, TOP, DISTINCT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT
+  - `Execution Order:` FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY, TOP/LIMIT
+- Filtering with `logical operators` (AND, OR, NOT, BETWEEN, IN, LIKE)
 - Aliases for columns (mostly optional) and tables (mandatory with joins)
 
 **Example Queries**:
