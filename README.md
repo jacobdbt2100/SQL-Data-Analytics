@@ -33,7 +33,7 @@
   - TOP/LIMIT
 
 - Filtering with logical operators (AND, OR, NOT, BETWEEN, IN, LIKE)
-- Aliases for columns and tables
+- Aliases for columns (mostly optional) and tables (mandatory with joins)
 
 **Example Queries**:
 ```sql
