@@ -196,3 +196,16 @@ A `Non-clustered Index` does not affect the physical order of data in a table. I
   - They help organise database objects (e.g. separating sales and HR tables).
   - They control access — permissions can be granted per schema.
   - They prevent naming conflicts between objects.
+
+#### `Temporary table vs Table variable:`
+
+| **Aspect**     | **Temporary Table**                         | **Table Variable**                             |
+| -------------- | ------------------------------------------- | ---------------------------------------------- |
+| **Definition** | A table stored temporarily in the database. | A variable that holds table data in memory.    |
+| **Scope**      | Exists for a session or transaction.        | Exists within a batch, procedure, or function. |
+| **Storage**    | Stored in tempdb.                           | Primarily stored in memory.                    |
+| **Lifetime**   | Dropped when session or transaction ends.   | Deallocated when its scope ends.               |
+
+**`Stored Procedure:`** is a saved set of SQL commands that performs a specific task — like retrieving, inserting, updating, or deleting data — and can be executed repeatedly. Can be with or without `parameters`.
+
+
