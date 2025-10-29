@@ -62,7 +62,7 @@ WHERE country = 'Nigeria'
 ORDER BY age DESC;
 ```
 
-## Week 2 — Aggregation
+## Week 2 — Data Aggregation
 
 - COUNT, SUM, AVG, MIN, MAX
 - GROUP BY and HAVING
