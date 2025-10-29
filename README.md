@@ -11,8 +11,6 @@
   - Update existing data
   - Delete data
   - Control access (security)
-  
-- Creating and inserting into tables
 - SELECT, WHERE, and ORDER BY clauses
 - Filtering with logical operators (AND, OR, NOT, BETWEEN, IN, LIKE)
 - Aliases for columns and tables
