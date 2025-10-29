@@ -235,14 +235,9 @@ The `COALESCE function` returns the first non-null expression from a list of exp
 #### `ROW_NUMBER():`
 The `ROW_NUMBER() function` assigns a unique incremental number to each row in the result set.
 
-#### `Purpose of SQL Functions:`
+#### `Some Purposes of SQL Functions:`
 - Perform some calculations on the data
 - Modify individual data items
 - Manipulate output
 - Format dates and numbers
-- Convert the data types
-
-
-
-
-
+- Convert data types
