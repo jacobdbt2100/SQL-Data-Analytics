@@ -164,10 +164,10 @@ WHERE rnk <= 3;
 ### MISCELLANEOUS
 
 #### `DELETE vs TRUNCATE:`
-
 `DELETE` removes specific rows from a table using a condition. `TRUNCATE` removes all rows from a table.
 
 #### `UNION vs UNION ALL:`
-
 `UNION` and `UNION ALL` are used to combine the result sets of two or more SELECT statements. `UNION` removes duplicate rows from the combined result set. `UNION ALL` includes all rows, including duplicates.
 
+#### `TRANSACTION:`
+A `transaction` is a sequence of SQL statements that are executed as a single logical unit of work. It ensures data consistency and integrity by either committing all changes or rolling them back if an error occurs.
