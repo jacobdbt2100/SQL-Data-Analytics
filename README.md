@@ -176,3 +176,10 @@ A `transaction` is a sequence of SQL statements that are executed as a single lo
 A `clustered Index` determines the physical order of data in a table. It changes the way the data is stored on disk and can be created on only one column. A table can have only one clustered index.
 
 A `Non-clustered Index` does not affect the physical order of data in a table. It is stored separately and contains a pointer to the actual data. A table can have multiple non-clustered indexes.
+
+#### `ACID in database transactions:`
+`ACID` stands for Atomicity, Consistency, Isolation,and Durability. It is a set of properties that guarantee reliable processing of database transactions.
+  - `Atomicity` ensures that a transaction is treated as a single unit of work, either all or none of the changes are applied.
+  - `Consistency` ensures that a transaction brings the database from one valid state to another
+  - `Isolation` ensures that concurrent transactions do not interfere with each other
+  - `Durability` ensures that once a transaction is committed, its changes are permanent and survive system failures.
