@@ -206,6 +206,7 @@ A `Non-clustered Index` does not affect the physical order of data in a table. I
 | **Storage**    | Stored in tempdb.                           | Primarily stored in memory.                    |
 | **Lifetime**   | Dropped when session or transaction ends.   | Deallocated when its scope ends.               |
 
-**`Stored Procedure:`** is a saved set of SQL commands that performs a specific task — like retrieving, inserting, updating, or deleting data — and can be executed repeatedly. Can be with or without `parameters`.
+#### `Stored Procedure:`
+Is a saved set of SQL commands that performs a specific task — like retrieving, inserting, updating, or deleting data — and can be executed repeatedly. Can be with or without `parameters`.
 
 
