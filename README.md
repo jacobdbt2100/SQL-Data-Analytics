@@ -161,7 +161,7 @@ FROM country_rank
 WHERE rnk <= 3;
 ```
 
-### Miscellaneous
+### MISCELLANEOUS
 
 #### `DELETE vs TRUNCATE:`
 
