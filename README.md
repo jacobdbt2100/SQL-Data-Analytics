@@ -302,6 +302,39 @@ The `ROW_NUMBER() function` assigns a unique incremental number to each row in t
 | ----------- | --------------------------------------- |
 | `SELECT`    | Retrieves data from one or more tables. |
 
+#### `SQL Summary:`
+
+| **Category**                     | **Key Commands / Functions**                                                                                          | **Notes & Use Cases**                                          |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| **🔹 Basics**                    | `SELECT`, `FROM`, `WHERE`, `GROUP BY`, `HAVING`, `ORDER BY`, `LIMIT` / `TOP`, `DISTINCT`                              | Foundation of all SQL queries.                                 |
+| **🔸 Operators**                 | `=`, `!=`, `<`, `>`, `<=`, `>=`, `BETWEEN`, `IN`, `NOT IN`, `LIKE`, `ILIKE`, `AND`, `OR`, `NOT`                       | Used to filter and compare values.                             |
+| **🔹 Joins**                     | `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `FULL OUTER JOIN`, `SELF JOIN`, `CROSS JOIN`                                 | Combine rows from multiple tables based on a related column.   |
+| **🔸 Aggregate Functions**       | `COUNT()`, `SUM()`, `AVG()`, `MIN()`, `MAX()`, `MEDIAN()`, `MODE()`, `STDDEV()`                                       | Summarise or aggregate data — often used with `GROUP BY`.      |
+| **🔹 String Functions**          | `CONCAT()`, `REPLACE()`, `UPPER()`, `LOWER()`, `LTRIM()`, `RTRIM()`, `TRIM()`, `SUBSTRING()`, `LEN()` / `LENGTH()`    | Used for text manipulation and cleaning.                       |
+| **🔸 Date & Time Functions**     | `GETDATE()`, `CURRENT_DATE`, `YEAR()`, `MONTH()`, `DAY()`, `DATEDIFF()`, `DATEADD()`, `DATE_TRUNC()`, `DATE_FORMAT()` | Handle and format date/time values.                            |
+| **🔹 Cleaning & Transformation** | `CAST()`, `CONVERT()`, `COALESCE()`, `NULLIF()`, `CASE WHEN`, `IFNULL()`, `IIF()`, `LISTAGG()`                        | Data formatting, null handling, and conditional logic.         |
+| **🔸 Set Operations**            | `UNION`, `UNION ALL`, `INTERSECT`, `EXCEPT` / `MINUS`                                                                 | Combine or compare results from multiple queries.              |
+| **🔹 Subqueries & CTEs**         | `WITH ... AS (...)`, nested `SELECT`                                                                                  | Used for reusing logic or breaking complex queries into steps. |
+| **🔸 Window Functions**          | `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`, `LEAD()`, `LAG()`, `SUM() OVER(...)`, `AVG() OVER(...)`                     | Perform calculations across rows without grouping.             |
+| **🔹 Data Definition (DDL)**     | `CREATE`, `ALTER`, `DROP`, `TRUNCATE`, `RENAME`                                                                       | Define or modify database structures (tables, views, etc.).    |
+| **🔸 Data Manipulation (DML)**   | `INSERT`, `UPDATE`, `DELETE`, `MERGE`                                                                                 | Add, change, or remove data in tables.                         |
+| **🔹 Data Control (DCL)**        | `GRANT`, `REVOKE`                                                                                                     | Manage user permissions and security.                          |
+| **🔸 Transaction Control (TCL)** | `COMMIT`, `ROLLBACK`, `SAVEPOINT`                                                                                     | Manage transactions and ensure data integrity.                 |
+| **🔹 Advanced SQL**              | `UDFs`, `Views`, `Indexes`, `Data Modeling`, `Recursive CTEs`                                                         | For performance, organisation, and hierarchical data.          |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
