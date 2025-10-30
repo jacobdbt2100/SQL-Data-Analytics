@@ -263,6 +263,7 @@ The `ROW_NUMBER() function` assigns a unique incremental number to each row in t
 | `UPDATE`    | Modifies existing records.                                                     |
 | `DELETE`    | Removes specific records.                                                      |
 | `MERGE`     | Combines `INSERT`, `UPDATE`, and `DELETE` in one statement (used for upserts). |
+
 `MERGE` adds new rows or updates existing ones in a single step (used when matching data from two tables).
 
 3. **DCL (Data Control Language):** `control` access and privileges.
