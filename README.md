@@ -140,7 +140,12 @@ ORDER BY t.total_amount DESC;
 
 ## Week 4 — Query Optimization & Final Project
 
-- Query performance basics (LIMIT, indexes conceptually, avoiding SELECT *)
+- Query performance techniques (basics)
+  - LIMIT
+  - Indexes
+  - Avoiding SELECT *
+  - Partitioning
+
 - Joins with filters and aggregation
 - Window functions (ROW_NUMBER, RANK, SUM OVER)
 - Mini analytical **case studies** project
