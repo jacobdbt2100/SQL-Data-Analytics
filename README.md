@@ -315,9 +315,9 @@ The `ROW_NUMBER() function` assigns a unique incremental number to each row in t
 | **Set Operations**            | `UNION`, `UNION ALL`, `INTERSECT`, `EXCEPT` / `MINUS`                                                                 | Combine or compare results from multiple queries.              |
 | **Window Functions**          | `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`, `LEAD()`, `LAG()`, `SUM() OVER(...)`, `AVG() OVER(...)`                     | Perform calculations across rows without grouping.             |
 
+#### `RANK() vs DENSE_RANK():`
 
-
-
-
-
-
+| **Function**       | **Description**                                  | **Example (Scores: 95, 90, 90, 85)**                             | **Resulting Ranks** |
+| ------------------ | ------------------------------------------------ | ---------------------------------------------------------------- | ------------------- |
+| **`RANK()`**       | Assigns ranks with gaps when there are ties.     | Two people tied at 90 both get rank 2; the next rank skips to 4. | 1, 2, 2, **4**      |
+| **`DENSE_RANK()`** | Assigns consecutive ranks without gaps for ties. | Two people tied at 90 both get rank 2; the next rank is 3.       | 1, 2, 2, **3**      |
