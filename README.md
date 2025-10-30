@@ -88,7 +88,7 @@ FROM customers;
 
 - Subqueries and CTEs (Common Table Expressions)
   - A `subquery` is a query nested inside another query. A `correlated subquery` is a subquery that depends on the outer query. It runs once for each row returned by the outer query.
-  - A `CTE` (Common Table Expression) is a temporary named result set that can be referenced within a SQL query. It makes complex queries easier to read and manage — especially when using subqueries or recursion.
+  - A `CTE` (Common Table Expression) is a temporary named result set that can be referenced within a SQL query. It makes complex queries easier to read and manage — especially when using subqueries or recursion. A `recursive CTE` is a CTE that refers to itself to handle hierarchical or sequential data, such as organization charts, family trees, or folder structures.
 
 **Example Queries**:
 
