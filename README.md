@@ -15,8 +15,22 @@
   A **`database`** is an organized collection of data stored and accessed electronically. It provides a way to store, organize, and retrieve large amounts of data efficiently.
 
 - **SQL Clauses**
-  - `Written Order:` SELECT, TOP, DISTINCT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT
-  - `Execution Order:` FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY, TOP/LIMIT
+  - `Query Logical Written Order:` SELECT, TOP, DISTINCT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT
+  - `Query Logical Execution Order:` FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY, TOP/LIMIT
+
+| **Order** | **Clause**                       | **Purpose**                                    |
+| --------- | -------------------------------- | ---------------------------------------------- |
+| 1️⃣       | **FROM**                         | Identify the table(s) or source(s) of data.    |
+| 2️⃣       | **ON** *(if JOIN used)*          | Define join conditions between tables.         |
+| 3️⃣       | **JOIN**                         | Combine data from multiple tables.             |
+| 4️⃣       | **WHERE**                        | Filter rows before grouping.                   |
+| 5️⃣       | **GROUP BY**                     | Group rows that share the same values.         |
+| 6️⃣       | **HAVING**                       | Filter groups after aggregation.               |
+| 7️⃣       | **SELECT**                       | Choose which columns or expressions to return. |
+| 8️⃣       | **DISTINCT** *(if used)*         | Remove duplicate rows from the result.         |
+| 9️⃣       | **ORDER BY**                     | Sort the final results.                        |
+| 🔟        | **TOP / LIMIT / OFFSET / FETCH** | Restrict the number of rows returned.          |
+
 - Filtering with `logical operators` (AND, OR, NOT, BETWEEN, IN, LIKE)
 - Aliases for columns (mostly optional) and tables (mandatory with joins)
   - `ALIAS command` in SQL is the name that can be given to any table or a column.
