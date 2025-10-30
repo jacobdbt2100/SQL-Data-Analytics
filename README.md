@@ -16,7 +16,7 @@
 
 - **SQL Clauses**
   - `Query Logical Written Order:` SELECT, TOP, DISTINCT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT
-  - `Query Logical Execution Order:` FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY, TOP/LIMIT
+  - `Query Logical Execution Order:`
 
 | **Order** | **Clause**                       | **Purpose**                                    |
 | --------- | -------------------------------- | -----------------------------------------------|
