@@ -241,3 +241,24 @@ The `ROW_NUMBER() function` assigns a unique incremental number to each row in t
 - Manipulate output
 - Format dates and numbers
 - Convert data types
+
+#### `SQL Commands:`
+`SQL commands` are grouped based on what they do in a database. Here’s a simple breakdown:
+
+1. **DDL (Data Definition Language)**
+
+| **Command** | **Purpose**                                                |
+| ----------- | ---------------------------------------------------------- |
+| `CREATE`    | Creates a new database object (table, view, schema, etc.). |
+| `ALTER`     | Modifies an existing object.                               |
+| `DROP`      | Deletes an object permanently.                             |
+| `TRUNCATE`  | Removes all data but keeps the table structure.            |
+| `RENAME`    | Changes the name of a database object.                     |
+
+
+
+
+
+
+
+
