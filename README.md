@@ -19,17 +19,17 @@
   - `Query Logical Execution Order:` FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY, TOP/LIMIT
 
 | **Order** | **Clause**                       | **Purpose**                                    |
-| --------- | -------------------------------- | ---------------------------------------------- |
-| 1️⃣       | **FROM**                         | Identify the table(s) or source(s) of data.    |
-| 2️⃣       | **ON** *(if JOIN used)*          | Define join conditions between tables.         |
-| 3️⃣       | **JOIN**                         | Combine data from multiple tables.             |
-| 4️⃣       | **WHERE**                        | Filter rows before grouping.                   |
-| 5️⃣       | **GROUP BY**                     | Group rows that share the same values.         |
-| 6️⃣       | **HAVING**                       | Filter groups after aggregation.               |
-| 7️⃣       | **SELECT**                       | Choose which columns or expressions to return. |
-| 8️⃣       | **DISTINCT** *(if used)*         | Remove duplicate rows from the result.         |
-| 9️⃣       | **ORDER BY**                     | Sort the final results.                        |
-| 🔟        | **TOP / LIMIT / OFFSET / FETCH** | Restrict the number of rows returned.          |
+| --------- | -------------------------------- | -----------------------------------------------|
+| 1️         | **FROM**                         | Identify the table(s) or source(s) of data.    |
+| 2️         | **ON** *(if JOIN used)*          | Define join conditions between tables.         |
+| 3️         | **JOIN**                         | Combine data from multiple tables.             |
+| 4️         | **WHERE**                        | Filter rows before grouping.                   |
+| 5️         | **GROUP BY**                     | Group rows that share the same values.         |
+| 6️         | **HAVING**                       | Filter groups after aggregation.               |
+| 7️         | **SELECT**                       | Choose which columns or expressions to return. |
+| 8️         | **DISTINCT** *(if used)*         | Remove duplicate rows from the result.         |
+| 9️         | **ORDER BY**                     | Sort the final results.                        |
+| 10        | **TOP / LIMIT / OFFSET / FETCH** | Restrict the number of rows returned.          |
 
 - Filtering with `logical operators` (AND, OR, NOT, BETWEEN, IN, LIKE)
 - Aliases for columns (mostly optional) and tables (mandatory with joins)
