@@ -245,7 +245,7 @@ The `ROW_NUMBER() function` assigns a unique incremental number to each row in t
 #### `SQL Commands:`
 `SQL commands` are grouped based on what they do in a database. Here’s a simple breakdown:
 
-1. **DDL (Data Definition Language)**
+1. **DDL (Data Definition Language):** `define`, `alter`, or `remove` database structures.
 
 | **Command** | **Purpose**                                                |
 | ----------- | ---------------------------------------------------------- |
@@ -255,7 +255,36 @@ The `ROW_NUMBER() function` assigns a unique incremental number to each row in t
 | `TRUNCATE`  | Removes all data but keeps the table structure.            |
 | `RENAME`    | Changes the name of a database object.                     |
 
+2. **DML (Data Manipulation Language):** `manipulate data` stored in tables.
 
+| **Command** | **Purpose**                                                                    |
+| ----------- | ------------------------------------------------------------------------------ |
+| `INSERT`    | Adds new records.                                                              |
+| `UPDATE`    | Modifies existing records.                                                     |
+| `DELETE`    | Removes specific records.                                                      |
+| `MERGE`     | Combines `INSERT`, `UPDATE`, and `DELETE` in one statement (used for upserts). |
+`MERGE` adds new rows or updates existing ones in a single step (used when matching data from two tables).
+
+3. **DCL (Data Control Language):** `control` access and privileges.
+
+| **Command** | **Purpose**               |
+| ----------- | ------------------------- |
+| `GRANT`     | Gives user permissions.   |
+| `REVOKE`    | Removes user permissions. |
+
+4. **TCL (Transaction Control Language):** `manage transactions` and maintain data integrity.
+
+| **Command** | **Purpose**                                        |
+| ----------- | -------------------------------------------------- |
+| `COMMIT`    | Saves changes made in a transaction.               |
+| `ROLLBACK`  | Reverses changes before commit.                    |
+| `SAVEPOINT` | Sets a point to roll back to within a transaction. |
+
+5. **DQL (Data Query Language):** `query` and retrieve data.
+
+| **Command** | **Purpose**                             |
+| ----------- | --------------------------------------- |
+| `SELECT`    | Retrieves data from one or more tables. |
 
 
 
