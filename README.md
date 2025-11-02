@@ -35,7 +35,7 @@
 - Aliases for columns (mostly optional) and tables (mandatory with joins)
   - `ALIAS command` in SQL is the name that can be given to any table or a column.
 
-**Example Queries**:
+**Example Queries:**
 ```sql
 -- Create a simple table
 CREATE TABLE customers (
@@ -67,7 +67,7 @@ ORDER BY age DESC;
 - DISTINCT and aggregate filtering
 - Derived columns using CASE
 
-**Example Queries**:
+**Example Queries:**
 
 ```sql
 -- Count customers by country
@@ -104,7 +104,7 @@ FROM customers;
   - A `subquery` is a query nested inside another query. A `correlated subquery` is a subquery that depends on the outer query. It runs once for each row returned by the outer query.
   - A `CTE` (Common Table Expression) is a temporary named result set that can be referenced within a SQL query. It makes complex queries easier to read and manage — especially when using subqueries or recursion. A `recursive CTE` is a CTE that refers to itself to handle hierarchical or sequential data, such as organization charts, family trees, or folder structures.
 
-**Example Queries**:
+**Example Queries:**
 
 ```sql
 -- Create an orders table
@@ -150,7 +150,7 @@ ORDER BY t.total_amount DESC;
 - Window functions (ROW_NUMBER, RANK, SUM OVER)
 - Mini analytical **case studies** project
 
-**Example Queries**
+**Example Queries:**
 
 ```sql
 -- Using a window function to rank customers by total order amount
