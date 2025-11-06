@@ -62,7 +62,7 @@ ORDER BY age DESC;
 
 ## Week 2 — Data Aggregation
 
-- COUNT, SUM, AVG, MIN, MAX
+- Aggregate Functions: COUNT, SUM, AVG, MIN, MAX
 - GROUP BY and HAVING
 - DISTINCT and aggregate filtering
 - Derived columns using CASE
