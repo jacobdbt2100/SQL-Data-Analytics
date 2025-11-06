@@ -32,7 +32,7 @@
 | 10        | **TOP / LIMIT / OFFSET / FETCH** | Restrict the number of rows returned.          |
 
 - Filtering with `logical operators` (AND, OR, NOT, BETWEEN, IN, LIKE)
-- Aliases for columns (mostly optional) and tables (mandatory with joins)
+- Aliases for `columns` and `tables` (especially with joins)
   - `ALIAS command` in SQL is the name that can be given to any table or a column.
 
 **Example Queries:**
